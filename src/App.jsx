@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './components/atoms/button/Button';
 import Input from './components/atoms/Input/Input';
-// import Form from './components/molecules/form/Form';
+import Form from './components/molecules/form/Form';
 
 const App = () => {
   return (
@@ -14,9 +14,10 @@ const App = () => {
 
       </div>
       <div>
-        <Input />
-        <Input />
+        {/* <Input />  */}
+        {/* <Input />
         {/* <Form /> */}
+        <Form/>
 
       </div>
     </>
