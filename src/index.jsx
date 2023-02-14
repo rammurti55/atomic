@@ -6,6 +6,7 @@ import { ThemeProvider } from '@mui/material';
 import reportWebVitals from './reportWebVitals';
 // import { unstable_createMuiStrictModeTheme } from '@mui/material/styles';
 import theme from './Theme'
+import 'bootstrap/dist/css/bootstrap.min.css';  
 // const theme = unstable_createMuiStrictModeTheme();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -3,7 +3,7 @@ import React from 'react'
 const Lable = (props) => {
   return (
     <div>
-        {/* <Lable >{props.lable}</Lable> */}
+        <label htmlFor="">{props.lableName}</label>
     </div>
   )
 }
