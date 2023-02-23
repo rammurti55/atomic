@@ -1,10 +1,17 @@
 import React from 'react'
+import theme from '../../../Theme'
 
 const Lable = (props) => {
   return (
+    <>
     <div>
-        <label htmlFor="">{props.lableName}</label>
+        <label htmlFor="" style={{
+            color:theme.palette.primary.main,
+            ...props.sx
+        }} > {props.lableName}</label>
     </div>
+    
+    </>
   )
 }
 
